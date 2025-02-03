@@ -837,70 +837,113 @@ section {
     }
   }
   
-  .specialty-section {
-    padding: 6rem 2rem;
-    background-color: #111;
+  /* General Styling */
+.elementor-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-}
-
-.specialty-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    max-width: 1200px;
-    width: 100%;
     align-items: center;
+    padding: 50px 0;
+    background-color: #ffffff;
 }
 
-.specialty-images {
+.elementor-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.elementor-column {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.tall-image img {
-    height: 100%;
-    object-fit: cover;
-}
-
-.specialty-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
-
-.specialty-img {
+/* Image & Content Styling */
+.elementor-column img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
-.specialty-item {
-    background-color: #fff;
-    padding: 2rem;
+.pt-title-wrap {
+    background: #fff;
+    padding: 30px;
     text-align: left;
-    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.specialty-item h4 {
-    font-size: 1.75rem;
+.pt-title {
+    font-size: 22px;
     font-weight: bold;
     color: #000;
+    margin-bottom: 10px;
 }
 
-.specialty-item p {
-    color: #333;
-    font-size: 1rem;
-    margin-top: 0.5rem;
+.pt-title-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
 }
 
-.specialty-item a {
-    display: inline-block;
-    margin-top: 1rem;
+.pt-title-btn {
+    margin-top: 15px;
+}
+
+.pt-title-btn a {
     text-decoration: none;
+    font-size: 14px;
+    color: #c00;
     font-weight: bold;
-    color: #000;
-    border-bottom: 2px solid #000;
-    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #c00;
+    padding-bottom: 3px;
+}
+
+.pt-title-btn a:hover {
+    color: #900;
+    border-bottom-color: #900;
+}
+
+/* Layout Adjustments */
+.elementor-section-boxed {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.elementor-reverse-mobile {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .elementor-container {
+        flex-direction: column;
+    }
+
+    .elementor-column {
+        width: 100%;
+    }
+}
+/* Add background images */
+.elementor-column[data-id="bda3310"] {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.elementor-column[data-id="f2243d9"] {
+    background-image: url('https://patiotime.loftocean.com/demo9/wp-content/uploads/sites/9/2022/07/alireza-nikzad-GzPWhY68g5M-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.elementor-column[data-id="28ed0c0"] {
+    background-image: url('your-image-url-3.jpg');
+    background-size: cover;
+    background-position: center;
 }
