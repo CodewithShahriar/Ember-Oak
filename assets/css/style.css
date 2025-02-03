@@ -860,6 +860,7 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
 /* Image & Content Styling */
@@ -929,21 +930,28 @@ section {
         width: 100%;
     }
 }
+
 /* Add background images */
 .elementor-column[data-id="bda3310"] {
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-}
-
-.elementor-column[data-id="f2243d9"] {
     background-image: url('https://patiotime.loftocean.com/demo9/wp-content/uploads/sites/9/2022/07/alireza-nikzad-GzPWhY68g5M-unsplash.jpg');
     background-size: cover;
     background-position: center;
 }
 
+.elementor-column[data-id="f2243d9"] {
+    background-image: url('https://patiotime.loftocean.com/demo9/wp-content/uploads/sites/9/2022/07/wesual-click-DxJvLtab4ak-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 .elementor-column[data-id="28ed0c0"] {
-    background-image: url('your-image-url-3.jpg');
+    background-image: url('https://patiotime.loftocean.com/demo9/wp-content/uploads/sites/9/2022/07/justa-guy-EuLqwsNin5U-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.elementor-column[data-id="abcd123"] {
+    background-image: url('https://patiotime.loftocean.com/demo9/wp-content/uploads/sites/9/2022/07/pk-OLo1SrGJHDQ-unsplash.jpg');
     background-size: cover;
     background-position: center;
 }
