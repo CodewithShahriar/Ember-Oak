@@ -837,4 +837,47 @@ section {
     }
   }
   
-  
+  * Specialty Section Styling */
+.specialty-section {
+    padding: 4rem 2rem;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+}
+
+.specialty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.specialty-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.specialty-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.specialty-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.specialty-item h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.specialty-item p {
+    color: #ccc;
+}
